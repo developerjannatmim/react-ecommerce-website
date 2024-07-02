@@ -1227,7 +1227,7 @@
                     .subtitle {
                         line-height: 38px;
                     }
-                    .ratting {
+                    .rating {
                         @extend %d-block;
                         @extend %mb-10;
                         i {
@@ -3122,7 +3122,7 @@
 			    	}
 			    }
 			}
-            .ratting i {
+            .rating i {
                 color: $theme-color;
             }
 		}

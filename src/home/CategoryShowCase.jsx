@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Ratting from "../components/Ratting";
+import Rating from "../components/Rating";
 import { Link } from "react-router-dom";
 
 const title = "Our Products";
@@ -131,7 +131,7 @@ const CategoryShowCase = () => {
                         </div>
 
                         <div className="course-review">
-                          <Ratting />
+                          <Rating />
                         </div>
                       </div>
                     </div>

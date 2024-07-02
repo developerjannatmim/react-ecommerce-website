@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Ratting = () => {
+const Rating = () => {
   return (
-    <span className='ratting'>
+    <span className='rating'>
         <i className='icofont-ui-rating'></i>
         <i className='icofont-ui-rating'></i>
         <i className='icofont-ui-rating'></i>
@@ -12,4 +12,4 @@ const Ratting = () => {
   )
 }
 
-export default Ratting
+export default Rating

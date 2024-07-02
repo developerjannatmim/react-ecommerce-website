@@ -107,13 +107,13 @@
                     }
                 }
                 .course-reiew {
-                    .ratting {
+                    .rating {
                         i {
                             font-size: $fs-base;
                             @extend %theme-color;
                         }
                     }
-                    .ratting-count {
+                    .rating-count {
                         @extend %ml-10;
                     }
                 }
@@ -232,7 +232,7 @@
                                 @extend %bg-theme;
                                 @extend %white-color;
                             }
-                            &.ratting {
+                            &.rating {
                                 @extend %theme-color;
                                 font-size: small;
                                 line-height: 24px;
@@ -325,7 +325,7 @@
                         }
                     }
                     .course-reiew {
-                        .ratting {
+                        .rating {
                             i {
                                 @extend %title-color;
                             }
@@ -388,7 +388,7 @@
                 .course-footer {
                     @extend %pt-15;
                     @extend %justify-start;
-                    .ratting {
+                    .rating {
                         @extend %yellow-color;
                         font-size: $fs-base;
                         @extend %pr-15;
@@ -450,7 +450,7 @@
             p {
                 @extend %mb-5;
             }
-            .ratting {
+            .rating {
                 i {
                     font-size: $fs-base;
                     @extend %theme-color;
@@ -578,7 +578,7 @@
                 }
             }
             .sft-right {
-                .ratting {
+                .rating {
                     i {
                         font-size: $fs-base;
                         @extend %theme-color;
