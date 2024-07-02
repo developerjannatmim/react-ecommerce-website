@@ -14,9 +14,9 @@ const desc = "Limited Time Offer! Hurry up";
 
 const Register = () => {
   return (
-    <section className="register-section padding-tb pb-0">
+    <section className="register-section padding-tb pb-0 pt-lg-0">
       <div className="container">
-        <div className="row g-4 row-cols-lg-2 row-cols-1 align-items-center">
+        <div className="row g-2 row-cols-lg-2 row-cols-1 align-items-center">
           <div className="col">
             <div className="section-header">
               <span className="subtitle">{subTitle}</span>
@@ -24,7 +24,7 @@ const Register = () => {
               <p>{desc}</p>
             </div>
           </div>
-          <div className="col">
+          <div className="col mt-5">
             <div className="section-wrapper">
               <h4>Register Now</h4>
               <form className="register-form">
